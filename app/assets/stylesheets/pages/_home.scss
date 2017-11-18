@@ -1,1 +1,28 @@
 // Specific CSS for your home-page
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about {
+  text-align: center;
+}
+
+.container h1 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  color: rgba(0, 0, 0, 0.6)
+}
+
+.container p {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: rgba(182, 235, 232, 0.5);
+  color: rgba(0, 0, 0, 0.8)
+}
