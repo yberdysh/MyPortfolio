@@ -15,5 +15,5 @@ Project.create(
   With TaskIt, employers of startups and small companies can post their company's internship positions in order to hire someone on a short-term basis of just a few weeks.
   Students and young adults who crave experience in a new field can create a profile similar to LinkedIn, browse internships, and apply easily by sending their epplicaiton straight to the
   employer's inbox.",
-  # photo: open("../../app/assets/images/taskit.png")
+  photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052105/jfri5pmrekmipefwrjis.png")
   )
