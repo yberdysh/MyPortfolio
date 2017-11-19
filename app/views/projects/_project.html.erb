@@ -1,8 +1,10 @@
 <div class="project">
-  <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(<%= project.photo.url %>);"></div>
+  <%= link_to project.link do %>
+    <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(<%= project.photo.url %>);">
+    </div>
+    <% end %>
   <div class="product-description">
-    <h4><%= project.name %></h4>
+    <h4> <a href="<%= project.link %>"><%= project.name %></a> </h4>
     <%= simple_format(project.description) %>
   </div>
 </div>
-

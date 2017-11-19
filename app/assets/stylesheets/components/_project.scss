@@ -5,6 +5,14 @@
   margin-bottom: 50px;
  }
 
+ .project h4 {
+  font-family: 'Ubuntu';
+ }
+
+.project a {
+  color: $yellow;
+  text-decoration: none;
+}
 .project-picture {
   height: 175px;
   width: 275px;
