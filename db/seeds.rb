@@ -10,12 +10,12 @@ Project.destroy_all
 Project.create(
   name: "TaskIt!",
   link: "https://alexolthofftaskit.herokuapp.com/",
-  description: "I worked in a team of three to take on the challenge of coding a marketplace website in only \n
-  five days. The innovative product that my team and I created is TaskIt. This is a platform for \n
-  both employers looking to hire and students or young adults looking to apply for internships. \n
-  With TaskIt, employers of startups and small companies can post their company's internship \n
-  positions in order to hire someone on a short-term basis of just a few weeks. Students and \n
-  young adults who crave experience in a new field can create a profile similar to LinkedIn, \n
+  description: "I worked in a team of three to take on the challenge of coding a marketplace website in only
+  five days. The innovative product that my team and I created is TaskIt. This is a platform for
+  both employers looking to hire and students or young adults looking to apply for internships.
+  With TaskIt, employers of startups and small companies can post their company's internship
+  positions in order to hire someone on a short-term basis of just a few weeks. Students and
+  young adults who crave experience in a new field can create a profile similar to LinkedIn,
   browse internships, and apply easily by sending their application straight to the employer's inbox.",
   photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052105/jfri5pmrekmipefwrjis.png")
   )

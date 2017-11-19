@@ -2,6 +2,6 @@
   <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url(<%= project.photo.url %>);"></div>
   <div class="product-description">
     <h4><%= project.name %></h4>
-    <p><%= h(project.description).gsub(/\n/, '<br>').html_safe %></p>
+    <%= simple_format(project.description) %>
   </div>
 </div>
