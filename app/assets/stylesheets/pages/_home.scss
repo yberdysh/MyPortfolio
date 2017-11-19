@@ -1,12 +1,14 @@
 // Specific CSS for your home-page
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+// .container {
+//   display: flex;
+//   align-items: center;
+//   flex-direction: column;
+// }
 
 .about {
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .container h1 {
@@ -20,6 +22,7 @@
 
 .container p {
   font-family: 'Raleway', sans-serif;
+  font-size: 95%;
 }
 
 body {

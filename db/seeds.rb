@@ -19,3 +19,37 @@ Project.create(
   browse internships, and apply easily by sending their application straight to the employer's inbox.",
   photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052105/jfri5pmrekmipefwrjis.png")
   )
+
+Project.create(
+  name: "GlobeGetter",
+  link: "https://alexolthofftaskit.herokuapp.com/",
+  description: "My team and I were given a challenge to create a web product in the last ten days of our
+  program. We still have a few days to go, so this is currently a work in progress. Globegetter
+  is a web platform for travel enthusiasts where users are able to set long-term travel goals
+  in order to fulfill them over many years. A user can specify how many places they would like
+  to visit, add desired travel destinations to their vision, mark off where they have been, see
+  the progress of their goal, as well as see pertinent informatin about a specific place. Please
+  check back in a few days to see the final result.",
+  photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052373/gwqityteikzq5a4benvy.png")
+  )
+
+Project.create(
+  name: "Cocktails",
+  link: "https://alexolthofftaskit.herokuapp.com/",
+  description: "Cocktails is a web application that I created when I first started working with rails.
+  This app provides an online platform for users to come together and share cocktails recipes.
+  A user is able to browse and read different cocktail recipes, as well as upload their own!
+  Everyone was very grateful for this app after a hard day of coding",
+  photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052837/wthryl0dcskv8lw0q9nj.png")
+  )
+
+Project.create(
+  name: "Vegan Montreal",
+  link: "https://alexolthofftaskit.herokuapp.com/",
+  description: "This is one of the first full-functioining projects that I built and was able to deploy.
+  When I moved to Montreal, I noticed that there are a lot of vegan restuarants, so I wanted
+  to create a one-stop website that will show all of them with ratings. Vegan Montreal is
+  similar to Yelp in that it is a community driven platform where users are able to rate
+  and review vegan restaurants in Montreal.",
+  photo: open("http://res.cloudinary.com/ddsp5wihh/image/upload/v1511052754/xktkjrsraukndm6jm4m5.png")
+  )
