@@ -34,13 +34,13 @@ Project.create(
   )
 
 Project.create(
-  name: "Cocktails",
+  name: "Mr. Cocktail",
   link: "https://alexolthofftaskit.herokuapp.com/",
   description: "Cocktails is a web application that I created when I first started working with rails.
   This app provides an online platform for users to come together and share cocktails recipes.
   A user is able to browse and read different cocktail recipes, as well as upload their own!
   Everyone was very grateful for this app after a hard day of coding",
-  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135099/se6jcukdflmnmwzgnj6z.png")
+  photo: open("https://mr-cocktail-yberdysh.herokuapp.com/cocktails")
   )
 
 Project.create(
