@@ -40,7 +40,7 @@ Project.create(
   This app provides an online platform for users to come together and share cocktails recipes.
   A user is able to browse and read different cocktail recipes, as well as upload their own!
   Everyone was very grateful for this app after a hard day of coding",
-  photo: open("https://mr-cocktail-yberdysh.herokuapp.com/cocktails")
+  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511136031/s5o9xyiyljrqjqi5madk.png")
   )
 
 Project.create(
