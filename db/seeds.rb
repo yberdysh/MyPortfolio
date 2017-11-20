@@ -35,7 +35,7 @@ Project.create(
 
 Project.create(
   name: "Mr. Cocktail",
-  link: "https://alexolthofftaskit.herokuapp.com/",
+  link: "https://mr-cocktail-yberdysh.herokuapp.com/",
   description: "Cocktails is a web application that I created when I first started working with rails.
   This app provides an online platform for users to come together and share cocktails recipes.
   A user is able to browse and read different cocktail recipes, as well as upload their own!
@@ -45,7 +45,7 @@ Project.create(
 
 Project.create(
   name: "Vegan Montreal",
-  link: "https://alexolthofftaskit.herokuapp.com/",
+  link: "https://vegan-montreal.herokuapp.com/",
   description: "This is one of the first full-functioining projects that I built and was able to deploy.
   When I moved to Montreal, I noticed that there are a lot of vegan restuarants, so I wanted
   to create a one-stop website that will show all of them with ratings. Vegan Montreal is
