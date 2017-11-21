@@ -28,7 +28,7 @@ Project.create(
   is a web platform for travel enthusiasts where users are able to set long-term travel goals
   in order to fulfill them over many years. A user can specify how many places they would like
   to visit, add desired travel destinations to their vision, mark off where they have been, see
-  the progress of their goal, as well as see pertinent informatin about a specific place. Please
+  the progress of their goal, as well as see pertinent information about a specific place. Please
   check back in a few days to see the final result.",
   photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135194/kokyrhmtcva71k1lfnxq.png")
   )
@@ -36,19 +36,19 @@ Project.create(
 Project.create(
   name: "Mr. Cocktail",
   link: "https://mr-cocktail-yberdysh.herokuapp.com/",
-  description: "Cocktails is a web application that I created when I first started working with rails.
-  This app provides an online platform for users to come together and share cocktails recipes.
+  description: "Mr. Cocktail is a web application that I created when I first started working with rails.
+  This app provides an online platform for users to come together and share cocktail recipes.
   A user is able to browse and read different cocktail recipes, as well as upload their own!
-  Everyone was very grateful for this app after a hard day of coding",
+  Everyone was very grateful for this app after a long week of coding.",
   photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511136031/s5o9xyiyljrqjqi5madk.png")
   )
 
 Project.create(
   name: "Vegan Montreal",
   link: "https://vegan-montreal.herokuapp.com/",
-  description: "This is one of the first full-functioining projects that I built and was able to deploy.
-  When I moved to Montreal, I noticed that there are a lot of vegan restuarants, so I wanted
-  to create a one-stop website that will show all of them with ratings. Vegan Montreal is
+  description: "This is one of the first full-functioning projects that I built and was able to deploy.
+  When I moved to Montreal, I noticed that there were a lot of vegan restuarants, so I wanted
+  to create a one-stop website that would show all of them with ratings. Vegan Montreal is
   similar to Yelp in that it is a community driven platform where users are able to rate
   and review vegan restaurants in Montreal.",
   photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135313/juuwef172my6xynduwck.png")
