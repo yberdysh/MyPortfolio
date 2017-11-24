@@ -22,14 +22,13 @@ Project.create(
 
 Project.create(
   name: "GlobeGetter",
-  link: "https://globe-getter.herokuapp.com/",
+  link: "https://www.globe-getter.com/",
   description: "My team and I were given a challenge to create a web product in the last ten days of our
-  program. We still have a few days to go, so this is currently a work in progress. Globegetter
-  is a web platform for travel enthusiasts where users are able to set long-term travel goals
-  in order to fulfill them over many years. A user can specify how many places they would like
-  to visit, add desired travel destinations to their vision, mark off where they have been, see
-  the progress of their goal, as well as see pertinent information about a specific place. Please
-  check back in a few days to see the final result.",
+  program. Globegetter is a web platform for travel enthusiasts where users are able to set
+  long-term travel goals in order to fulfill them over many years. A user can specify how
+  many places they would like to visit, add desired travel destinations to their vision,
+  mark off where they have been, see the progress of their goal, as well as see pertinent
+  information about a specific place.",
   photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135194/kokyrhmtcva71k1lfnxq.png")
   )
 
