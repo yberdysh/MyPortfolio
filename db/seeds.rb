@@ -8,19 +8,6 @@
 Project.destroy_all
 
 Project.create(
-  name: "TaskIt!",
-  link: "https://alexolthofftaskit.herokuapp.com/",
-  description: "I worked in a team of three to take on the challenge of coding a marketplace website in only
-  five days. The innovative product that my team and I created is TaskIt. This is a platform for
-  both employers looking to hire and students or young adults looking to apply for internships.
-  With TaskIt, employers of startups and small companies can post their company's internship
-  positions in order to hire someone on a short-term basis of just a few weeks. Students and
-  young adults who crave experience in a new field can create a profile similar to LinkedIn,
-  browse internships, and apply easily by sending their application straight to the employer's inbox.",
-  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135365/yo40n4sixwnokhga83t0.png")
-  )
-
-Project.create(
   name: "GlobeGetter",
   link: "https://www.globe-getter.com/",
   description: "My team and I were given a challenge to create a web product in the last ten days of our
@@ -33,13 +20,26 @@ Project.create(
   )
 
 Project.create(
+  name: "TaskIt!",
+  link: "https://alexolthofftaskit.herokuapp.com/",
+  description: "I worked in a team of three to take on the challenge of coding a marketplace website in only
+  five days. The innovative product that my team and I created is a platform for both employers
+  looking to hire and students looking to apply for internships. With TaskIt, employers of
+  startups and small companies can post their company's internship in order to hire someone
+  on a short-term basis of just a few weeks. Students who crave experience in a new field
+  can create a profile similar to LinkedIn, browse internships, and apply easily by sending
+  their application straight to the employer's inbox.",
+  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511135365/yo40n4sixwnokhga83t0.png")
+  )
+
+Project.create(
   name: "Mr. Cocktail",
   link: "https://mr-cocktail-yberdysh.herokuapp.com/",
   description: "Mr. Cocktail is a web application that I created when I first started working with rails.
   This app provides an online platform for users to come together and share cocktail recipes.
   A user is able to browse and read different cocktail recipes, as well as upload their own!
   Everyone was very grateful for this app after a long week of coding.",
-  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511136031/s5o9xyiyljrqjqi5madk.png")
+  photo: open("http://res.cloudinary.com/daguvfl0l/image/upload/v1511917554/aruezarknzsyalvu16hj.png")
   )
 
 Project.create(
