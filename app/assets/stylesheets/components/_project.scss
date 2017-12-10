@@ -4,7 +4,7 @@
   width: 100vw;
   height: 90vh;
   //margin-bottom: 60px;
-  margin-left: -150px;
+  //margin-left: -150px;
   padding: 50px;
 
  }
@@ -58,16 +58,22 @@
   color: rgba(0, 0, 0, 0.7);
   opacity: 0.77;
   text-decoration: none;
+  padding: 0;
 }
+
 
 .project p {
   color: rgba(0, 0, 0, 0.7);
-  //opacity: 1;
 }
 
 .project a:hover {
   opacity: 1;
 }
+
+div.project-picture:hover {
+  opacity: 1;
+}
+
 .project-picture {
   height: 400px;
   width: 600px;
@@ -77,10 +83,15 @@
   background-position: center;
   color: white;
   position: relative;
-  margin-right: 20px;
-  margin-left: 0;
+  margin: 0;
+  opacity: 0.75;
+  z-index: 10;
  // padding-left: 50px;
 
+}
+
+.project-picture a:hover {
+  opacity: 1;
 }
 
 .footer-copyright {
