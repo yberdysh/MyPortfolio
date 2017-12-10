@@ -1,26 +1,76 @@
 .project {
   display: flex;
   align-items: center;
-  width: 1100px;
-  margin-bottom: 50px;
+  width: 100vw;
+  height: 90vh;
+  //margin-bottom: 60px;
+  margin-left: -150px;
+  padding: 50px;
+
+ }
+
+ .project.globe {
+  background-color: #C3E7DA;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //border-top: solid;
+
+ }
+
+ .project.task {
+  background-color: rgba(102, 146, 191, 0.7);
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .project.cocktail {
+  background-color: rgba(233, 51, 121, 0.7);
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .project.vegan {
+  background-color: #F1FFE8;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
  }
 
  .project h4 {
   font-family: 'Ubuntu';
+  font-size: 30px;
+  text-align: center;
+  font-weight: bolder;
  }
 
 .project a {
-  color: $yellow;
+  color: rgba(0, 0, 0, 0.7);
   opacity: 0.77;
   text-decoration: none;
+}
+
+.project p {
+  color: rgba(0, 0, 0, 0.7);
+  //opacity: 1;
 }
 
 .project a:hover {
   opacity: 1;
 }
 .project-picture {
-  height: 175px;
-  width: 275px;
+  height: 400px;
+  width: 600px;
   border-radius: 4px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
@@ -28,7 +78,9 @@
   color: white;
   position: relative;
   margin-right: 20px;
-  margin-left: 50px;
+  margin-left: 0;
+ // padding-left: 50px;
+
 }
 
 .footer-copyright {
@@ -36,6 +88,7 @@
 }
 
 .product-description {
-  margin-left: 20px;
+  //margin-left: 40px;
   font-size: 90%;
+  padding: 50px;
 }

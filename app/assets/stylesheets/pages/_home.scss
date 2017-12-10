@@ -7,7 +7,7 @@
 
 .about {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -22,12 +22,17 @@
 
 .container p {
   font-family: 'Raleway', sans-serif;
-  font-size: 95%;
+  //font-size: 95%;
 }
 
 body {
   background-color: rgba(182, 235, 232, 0.5);
   color: rgba(0, 0, 0, 0.8)
+}
+
+.projects {
+  //margin-left: -150px;
+  border-top: solid;
 }
 
 .projects h1 {

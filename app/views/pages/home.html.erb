@@ -11,7 +11,75 @@
 
   <div class="projects">
     <h1>Projects</h1>
-      <%= render partial: 'projects/project', collection: @projects %>
+
+    <div class="project globe">
+      <%= link_to "http://www.globe-getter.com", :target => "_blank" do %>
+      <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/daguvfl0l/image/upload/v1511917965/q3f9g09ujd0ndom10bmj.png');">
+      </div>
+        <% end %>
+        <div class="product-description">
+        <h4> <a href="http://www.globe-getter.com">GlobeGetter</a> </h4>
+        <p>My team and I were given a challenge to create a web product in the last ten days of our
+  program. Globegetter is a web platform for travel enthusiasts where users are able to set
+  long-term travel goals in order to fulfill them over many years. A user can specify how
+  many places they would like to visit, add desired travel destinations to their vision,
+  mark off where they have been, see the progress of their goal, as well as see pertinent
+  information about a specific place.</p>
+  </div>
+</div>
+
+    <div class="project task">
+      <div class="product-description">
+        <h4> <a href="https://alexolthofftaskit.herokuapp.com">TaskIt!</a> </h4>
+        <p>I worked in a team of three to take on the challenge of coding a marketplace website in only
+  five days. The innovative product that my team and I created is a platform for both employers
+  looking to hire and students looking to apply for internships. With TaskIt, employers of
+  startups and small companies can post their company's internship in order to hire someone
+  on a short-term basis of just a few weeks. Students who crave experience in a new field
+  can create a profile similar to LinkedIn, browse internships, and apply easily by sending
+  their application straight to the employer's inbox.</p>
+  </div>
+      <%= link_to "https://alexolthofftaskit.herokuapp.com", :target => "_blank" do %>
+      <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/daguvfl0l/image/upload/v1511917967/aikvfbn5kpznkkwxzhdv.png');">
+      </div>
+        <% end %>
+
+</div>
+
+    <div class="project cocktail">
+      <%= link_to "https://mr-cocktail-yberdysh.herokuapp.com", :target => "_blank" do %>
+      <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/daguvfl0l/image/upload/v1511917554/aruezarknzsyalvu16hj.png');">
+      </div>
+        <% end %>
+        <div class="product-description">
+        <h4> <a href="https://mr-cocktail-yberdysh.herokuapp.com">Mr. Cocktail</a> </h4>
+        <p>Mr. Cocktail is a web application that I created when I first started working with rails.
+  This app provides an online platform for users to come together and share cocktail recipes.
+  A user is able to browse and read different cocktail recipes, as well as upload their own!
+  Everyone was very grateful for this app after a long week of coding.</p>
+  </div>
+</div>
+
+    <div class="project vegan">
+      <div class="product-description vegan">
+        <h4> <a href="https://vegan-montreal.herokuapp.com">Vegan Montreal</a> </h4>
+        <p>This is one of the first full-functioning projects that I built and was able to deploy.
+  When I moved to Montreal, I noticed that there were a lot of vegan restuarants, so I wanted
+  to create a one-stop website that would show all of them with ratings. Vegan Montreal is
+  similar to Yelp in that it is a community driven platform where users are able to rate
+  and review vegan restaurants in Montreal.</p>
+      </div>
+      <%= link_to "https://vegan-montreal.herokuapp.com", :target => "_blank" do %>
+      <div class="project-picture" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/daguvfl0l/image/upload/v1511917976/ygaqhq7fqa9cp9tjjf9s.png');">
+      </div>
+        <% end %>
+
+  </div>
+</div>
+
+
+
+
        <!-- cl_image_tag("jfri5pmrekmipefwrjis", width: 400, height: 400, crop: :fill) -->
   </div>
 
