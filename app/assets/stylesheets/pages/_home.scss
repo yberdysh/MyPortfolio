@@ -1,10 +1,4 @@
 // Specific CSS for your home-page
-// .container {
-//   display: flex;
-//   align-items: center;
-//   flex-direction: column;
-// }
-
 .container {
   width: 100vw;
   display: flex;
@@ -16,11 +10,9 @@
 
 .about {
   text-align: center;
-  //margin-top: 50px;
-  //margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: solid;
-  width: 1140px;
+  width: 80vw;
   height: auto;
 }
 
@@ -35,7 +27,6 @@
 
 .container p {
   font-family: 'Raleway', sans-serif;
-  //font-size: 95%;
 }
 
 body {
@@ -43,11 +34,4 @@ body {
   color: rgba(0, 0, 0, 0.8)
 }
 
-.projects {
-  //margin-left: -150px;
-  //border-top: solid;
-}
 
-.projects h1 {
-  // text-decoration: underline;
-}

@@ -1,51 +1,47 @@
 .project {
-  display: flex;
+ // display: flex;
   align-items: center;
   width: 100vw;
-  min-height: 90vh;
+  min-height: 80vh;
   height: auto;
   //margin-bottom: 60px;
   //margin-left: -150px;
+  margin: auto;
   padding: 50px;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 100px;
 
  }
+
+ // .one-project {
+ //  display: flex;
+ //  align-items: center;
+ //  justify-content: center;
+ // }
 
  .project.globe {
   background-color: #C3E7DA;
   text-align: center;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  //border-top: solid;
-
  }
 
  .project.task {
   background-color: rgba(102, 146, 191, 0.7);
   text-align: center;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
  }
 
  .project.cocktail {
   background-color: rgba(233, 51, 121, 0.7);
   text-align: center;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
  }
 
  .project.vegan {
   background-color: #F1FFE8;
   text-align: center;
   width: 100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
  }
 
  .project h4 {
@@ -85,16 +81,11 @@ div.project-picture:hover {
   background-size: cover !important;
   background-position: center;
   color: white;
-  position: relative;
   margin: 0;
   opacity: 0.75;
   z-index: 10;
  // padding-left: 50px;
 
-}
-
-.project-picture a:hover {
-  opacity: 1;
 }
 
 .footer-copyright {
