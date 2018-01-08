@@ -30,6 +30,9 @@
   background-color: rgba(102, 146, 191, 0.7);
   text-align: center;
   width: 100vw;
+    @media screen and (max-width: 995px) {
+    display: flex;
+    flex-flow: column-reverse; }
  }
 
  .project.cocktail {
@@ -42,6 +45,9 @@
   background-color: #F1FFE8;
   text-align: center;
   width: 100vw;
+  @media screen and (max-width: 995px) {
+    display: flex;
+    flex-flow: column-reverse; }
  }
 
  .project h4 {
@@ -90,6 +96,7 @@ div.project-picture:hover {
   margin: 0;
   opacity: 0.75;
   z-index: 10;
+  //padding-top: 20px;
     @media (max-width: 600px) {
     max-height: 200px;
     //max-width: 200px;
