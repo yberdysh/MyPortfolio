@@ -95,6 +95,9 @@ div.project-picture:hover {
 .product-description {
   //margin-left: 40px;
   font-size: 90%;
-  padding: 50px;
+  max-padding: 50px;
   width: auto;
+  @media (min-width: 300px) {
+    font-size: 90%;
+  }
 }
