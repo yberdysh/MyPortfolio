@@ -32,13 +32,13 @@
 
 .logo {
   position: relative;
-  bottom: 1em;
+  top: 0.5em;
   height: 250px;
-    @media (max-width: 450px) {
-    height: 200px;
-    width: 100px;
-    bottom: 0.5em;
-    left: 4em;
+    @media (max-width: 500px) {
+    height: 170px;
+    width: 90px;
+    top: 0.5em;
+    left: 4.5em;
     //right: 4em;
     //top: 5px;
 
