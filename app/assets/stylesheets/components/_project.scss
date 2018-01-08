@@ -84,6 +84,9 @@ div.project-picture:hover {
   margin: 0;
   opacity: 0.75;
   z-index: 10;
+    @media (max-width: 600px) {
+    max-height: 200px;
+  }
  // padding-left: 50px;
 
 }
